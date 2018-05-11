@@ -7,7 +7,6 @@
 import React, { Component } from 'react';
 import LoggedOut from './src/screens/LoggedOut';
 
-type Props = {};
 export default class App extends Component<Props> {
   render() {
     return <LoggedOut />
